@@ -18,26 +18,6 @@ Users can book tickets by selecting or typing cities (from/to) with Indian railw
 - 🖼️ Background styling with a blurred image
 
 
-## Installation
-
-1. Clone the repository:
-```bash
-   git clone https://github.com/ShravanDalavi/Web-Mini-Projects.git
-
-```
-
-2. Navigate to the project directory:
-```bash
-cd Web-Mini-Projects/projects/Ticket\ Management
-
-```
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/ticket-management-system.git
-   cd ticket-management-system
-   ```
-
 🏙️ Railway Cities Included
 Mumbai
 
