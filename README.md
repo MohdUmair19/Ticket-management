@@ -1,4 +1,4 @@
-# 🚆 Ticket Management System (Railway Edition)
+# 🚆 Ticket Management System 
 
 A simple yet functional **Railway Ticket Booking System** built using **HTML**, **CSS**, and **JavaScript**.  
 Users can book tickets by selecting or typing cities (from/to) with Indian railway stations, and also view or delete booking history.
