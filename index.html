@@ -16,15 +16,9 @@
             <input type="text" id="seat" placeholder="Seat No" required><br>
             <input type="date" id="date" required><br>
 
-            <!-- From Location with datalist -->
             <input list="city-list" id="from" name="from" placeholder="From Location" required><br>
-
-            <!-- To Location with datalist -->
             <input list="city-list" id="to" name="to" placeholder="To Location" required><br>
-
-            <!-- Datalist shared by both inputs -->
             <datalist id="city-list">
-                <!-- Options will be injected by script.js -->
             </datalist>
 
             <input type="submit" value="Book Ticket">
@@ -48,7 +42,6 @@
             </tr>
         </thead>
         <tbody id="history-table-body">
-            <!-- Ticket history rows will be dynamically added here -->
         </tbody>
     </table>
 </div>
