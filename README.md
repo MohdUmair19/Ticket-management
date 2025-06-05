@@ -60,7 +60,7 @@ You can type your own city as well if it's not in the list.
 ## File Structure
 
 ```graphql
-ticket-management-system/
+Ticket-management/
 │
 ├── index.html        # Main HTML structure of the ticket booking interface
 ├── styles.css        # CSS file for styling the application
