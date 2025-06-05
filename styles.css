@@ -47,7 +47,6 @@ h2 {
     margin: 0 auto;
 }
 
-/* Input styles (text, date, datalist inputs) */
 input[type="text"],
 input[type="date"],
 input[type="submit"],
@@ -59,7 +58,6 @@ input[list] {
     border-radius: 5px;
 }
 
-/* Submit button */
 input[type="submit"] {
     background-color: #ad4141;
     color: white;
@@ -72,7 +70,6 @@ input[type="submit"]:hover {
     background-color: #971b1b;
 }
 
-/* View history button */
 #view-history-btn {
     background-color: rgb(24, 24, 92);
     color: rgb(255, 231, 231);
@@ -89,7 +86,6 @@ input[type="submit"]:hover {
     background-color: rgb(17, 17, 61);
 }
 
-/* Ticket history section */
 #ticket-history {
     margin-top: 20px;
     background-color: #fff;
