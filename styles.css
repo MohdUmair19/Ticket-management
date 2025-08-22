@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     padding: 20px;
-    background-image: url('amir-hanna.jpg');
+    background-image: url('ticket.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -22,7 +22,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('amir-hanna.jpg');
+    background-image: url('ticket.jpg');
     background-size: cover;
     background-position: center;
     filter: blur(100px);
@@ -49,8 +49,10 @@ h2 {
 
 input[type="text"],
 input[type="date"],
-input[type="submit"],
-input[list] {
+input[list],
+select,
+button,
+input[type="submit"] {
     width: calc(100% - 20px);
     padding: 10px;
     margin: 10px 0;
@@ -58,7 +60,8 @@ input[list] {
     border-radius: 5px;
 }
 
-input[type="submit"] {
+input[type="submit"],
+button {
     background-color: #ad4141;
     color: white;
     border: none;
@@ -66,7 +69,8 @@ input[type="submit"] {
     transition: background-color 0.3s;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover,
+button:hover {
     background-color: #971b1b;
 }
 
