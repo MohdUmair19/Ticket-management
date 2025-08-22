@@ -13,15 +13,21 @@
         <form id="ticket-form">
             <h2>Ticket Management System</h2>
             <input type="text" id="name" placeholder="Name" required><br>
-            <input type="text" id="seat" placeholder="Seat No" required><br>
             <input type="date" id="date" required><br>
 
             <input list="city-list" id="from" name="from" placeholder="From Location" required><br>
             <input list="city-list" id="to" name="to" placeholder="To Location" required><br>
-            <datalist id="city-list">
-            </datalist>
+            <datalist id="city-list"></datalist>
 
-            <input type="submit" value="Book Ticket">
+            <!-- Button to search trains -->
+            <button type="button" id="search-trains-btn">Search Trains</button><br>
+
+            <!-- Train selection will appear after search -->
+            <select id="train" required style="display:none;">
+                <option value="">Select Train</option>
+            </select><br>
+
+            <input type="submit" value="Book Ticket" style="display:none;" id="book-btn">
         </form>
         <button id="view-history-btn">View History</button>
     </div>
@@ -34,6 +40,7 @@
             <tr>
                 <th>Ticket ID</th>
                 <th>Name</th>
+                <th>Train</th>
                 <th>Seat No</th>
                 <th>Date</th>
                 <th>From Location</th>
